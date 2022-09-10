@@ -10,6 +10,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+	/* your new code goes here */
 {
 	int n;
 
