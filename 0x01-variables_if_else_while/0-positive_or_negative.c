@@ -7,7 +7,7 @@
  *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 	/* your new code goes here */
