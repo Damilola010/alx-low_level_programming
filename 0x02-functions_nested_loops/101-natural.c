@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: computes the sum of all
@@ -13,10 +14,9 @@ int main(void)
 	{
 		if ((num % 3 == 0) || (num % 5 == 0))
 		{
-			sum += num;
+			sum = num;
 		}
 		printf("%d\n", sum);
-
-		return (0);
 	}
+	return (0);
 }
