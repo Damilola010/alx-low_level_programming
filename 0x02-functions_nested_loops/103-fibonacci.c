@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * numLength - returns the lenth of string
- * @num : operand number
+ * main - entry point in c
  * Return: 0 if successful
  */
 int main(void)
