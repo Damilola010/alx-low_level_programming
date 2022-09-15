@@ -2,22 +2,25 @@
 /**
  * numLength - returns the lenth of string
  * @num : operand number
- * Return: number of digits
+ * Return: 0 if successful
  */
-int numLength(int num)
+int main(void)
 {
-	int length = 0;
+	int a = 1;
+	int b = 2;
+	int fib = 0;
+	int sum = 2;
 
-	if (!num)
+	while (fib < 4000000)
 	{
-		return (1);
+		fib = a + b;
+		if (fib % 2 == 0)
+		{
+			sum += fib;
+		}
+		a = b;
+		b = fib;
 	}
-
-	while (num)
-	{
-		num = num / 10;
-		length += 1;
-	}
-
-	return (length);
+	printf("%i\n", sum);
+	return (0);
 }

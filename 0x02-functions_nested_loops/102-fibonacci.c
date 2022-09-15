@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - Entry point
@@ -8,23 +7,32 @@
  */
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, sum;
-	float total_sum;
+	long a = 1;
+	long b = 2;
+	int n = 3;
 
-	while (1)
+	printf("%li, ", a);
+	printf("%li, ", b);
+
+	while (n < 50)
 	{
-		sum = fib1 + fib2;
+		long fib = a + b;
 
-		if (sum > 4000000)
-			break;
-
-		if ((sum % 2) == 0)
-			total_sum += sum;
-
-		fib1 = fib2;
-		fib2 = sum;
+		printf("%li, ", fib);
+		a = b;
+		b = fib;
+		n++;
 	}
-	printf("%.0f\n", total_sum);
+
+	while (n == 50)
+	{
+		long fib = a + b;
+
+		printf("%li\n", fib);
+		a = b;
+		b = fib;
+		n++;
+	}
 
 	return (0);
 }
