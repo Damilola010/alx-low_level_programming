@@ -15,6 +15,7 @@ int j, k;
 for (j = 0; j <= 9; j++)
 {
 if (j <= s)
+
 printf("%02x", c[l * 10 + j]);
 else
 
