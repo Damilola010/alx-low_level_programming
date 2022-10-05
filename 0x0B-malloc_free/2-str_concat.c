@@ -4,7 +4,7 @@
 * str_concat - a function that concatenates two strings.
 * @sl:First string
 * @s2:Second string
-* Return: NULL in case of failure , but pointer to a new string in 
+* Return: NULL in case of failure , but pointer to a new string in
 * case of success
 */
 
