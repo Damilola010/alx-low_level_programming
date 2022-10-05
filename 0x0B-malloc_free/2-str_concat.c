@@ -7,7 +7,6 @@
 * Return: NULL in case of failure , but pointer to a new string in
 * case of success
 */
-
 char *str_concat(char *s1, char *s2)
 {
 char *concat_str;
